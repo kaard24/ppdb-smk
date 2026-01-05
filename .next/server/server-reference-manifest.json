@@ -1,0 +1,30 @@
+{
+  "node": {
+    "bff4af497ee51dd8d1f85c4342f365417e746fe6": {
+      "workers": {
+        "app/cek-status/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ceka%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csmk%5C%5Capp%5C%5Cactions%5C%5CcheckStatus.ts%22%2C%5B%22checkStatus%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Ceka%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csmk%5C%5Capp%5C%5Cactions%5C%5CgetRegistrants.ts%22%2C%5B%22getRegistrants%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/cek-status/page": "action-browser"
+      }
+    },
+    "91c3374a9f056f05d8fe963842edfadb8034697e": {
+      "workers": {
+        "app/cek-status/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ceka%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csmk%5C%5Capp%5C%5Cactions%5C%5CcheckStatus.ts%22%2C%5B%22checkStatus%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Ceka%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csmk%5C%5Capp%5C%5Cactions%5C%5CgetRegistrants.ts%22%2C%5B%22getRegistrants%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/cek-status/page": "action-browser"
+      }
+    },
+    "50180270951a60c1310df9862fe7364d4c85c6a3": {
+      "workers": {
+        "app/daftar/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ceka%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csmk%5C%5Capp%5C%5Cactions%5C%5CsubmitPendaftaran.ts%22%2C%5B%22submitPendaftaran%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/daftar/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "0BTTsfYswsnJXB5fGEZe/N6Rf+VU4m8bYL7W9ZmVEis="
+}
