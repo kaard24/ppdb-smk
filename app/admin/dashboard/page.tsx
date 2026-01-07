@@ -78,7 +78,7 @@ export default function AdminDashboardPage() {
     });
 
     // Get unique jurusan from data for dynamic filtering
-    const uniqueJurusan = ["Semua Jurusan", ...new Set(data.map(s => s.jurusan_pilihan))];
+    const uniqueJurusan = ["Semua Jurusan", ...Array.from(new Set(data.map(s => s.jurusan_pilihan)))];
 
     // Check authentication on mount
     useEffect(() => {
