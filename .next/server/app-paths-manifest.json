@@ -1,8 +1,6 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/informasi/page": "app/informasi/page.js",
-  "/jurusan/page": "app/jurusan/page.js",
-  "/cek-status/page": "app/cek-status/page.js",
-  "/daftar/page": "app/daftar/page.js",
-  "/sukses/page": "app/sukses/page.js"
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/page": "app/admin/page.js"
 }

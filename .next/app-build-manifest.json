@@ -1,40 +1,35 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/informasi/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/informasi/page.js"
+      "static/chunks/app/page.js"
     ],
-    "/jurusan/page": [
+    "/admin/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jurusan/page.js"
+      "static/chunks/app/admin/dashboard/page.js"
     ],
-    "/cek-status/page": [
+    "/admin/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/cek-status/page.js"
+      "static/chunks/app/admin/page.js"
     ],
-    "/daftar/page": [
+    "/admin/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/daftar/page.js"
+      "static/chunks/app/admin/layout.js"
     ],
-    "/sukses/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/sukses/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

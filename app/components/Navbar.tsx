@@ -3,9 +3,16 @@
 import Link from 'next/link';
 import { Menu, X, GraduationCap } from 'lucide-react';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const pathname = usePathname();
+
+    // Don't render navbar on admin pages
+    if (pathname?.startsWith('/admin')) {
+        return null;
+    }
 
     return (
         <nav className="fixed top-0 z-50 w-full glass border-b border-white/20 transition-all duration-300">
